@@ -5,7 +5,7 @@
         body{
             font-family: sans-serif;
             font-size: small;
-            background-color: rgb(225, 243, 243);
+            background-color: rgb(102, 32, 32);
             margin: 1px;
             padding: 1px;
             box-sizing: border-box;
@@ -20,7 +20,7 @@
         .inside{
             margin: 0 auto;
             margin-right: 0%;
-            background-color: white;
+            background-color: rgba(148, 89, 13, 0.829);
             box-shadow: 0px 3px 3px 10px rgb(0,0,0,0.05);
             border-radius: 20px;
             width: 870px;
@@ -293,6 +293,7 @@
             margin-top: 1000px;
             cursor: pointer;
         }
+       
 </style>
 <body id="body">
     <div class="all">
@@ -311,12 +312,20 @@
                     <li class="items"><a href="https://github.com/JoeyOJ">JoeyOJ.github.com</a></li>
                 </ul>
             </div>
-                
+            <div class="social">
+                <p>Social Media Links</p>
+                   <p style="font-size:28px; font-weight:10px">
+                   <a href="https://www.facebook.com/Joel Ojonugwa Akoh"><img src="./facebook.png" class="media" /></a> 
+                   <a href="https://twitter.com/JoeyOJ"><img src="./twitter.png" class="media" /></a> 
+                   <a href="https://www.linkedin.com/in/akoh-joel-ojonugwa-138151196/"><img src="./link.png" class="media" /> </a>
+                  
+            </div>
             <div class="first-intro section">
                 <div class="text">
+    
                     <p class="title">Intro</p>
                 </div>
-                <div class="body">
+                <div class="body" id="open" class="collapse">
                    <p>Hi there,I am currently learning web design and development with Ehealth Africa academy</p>
                    <p>This is a new field for me, cos all i know before now is power engineering</p>
                    <p>My hobbies are travelling,reading, watching documentary and listening/ dancing to music</p>
@@ -405,11 +414,16 @@
                     
                     <p>
                         <a href="https://github.com/JoeyOJ/">eHealth Africa Academy Challanges  </a>
-                    </p>
-
+                    </p> 
                 </div>
-
+                   
             </div>
+            <div class="emded">
+                <blockquote class="twitter-tweet" style="width: 140px;margin-right: 30px; height: 50px;"><p lang="en" dir="ltr">
+                  <a href="https://t.co/XUHdsfjnsV?amp=1">https://t.co/XUHdsfjnsV?amp=1</a> <a href="https://t.co/c4n7ythj2D">pic.twitter.com/c4n7ythj2D</a> <a href="https://twitter.com/search?q=%23EndSARS&src=trend_click&vertical=trends">October 9, 2020</a>
+               </blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+               </div>
+              
 
             <div id="dark" class="dark_sm">
                 <a href="#"><img  src="./img/moon.svg" alt=""></a>
@@ -487,6 +501,7 @@
         $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
 </script>
 
 </body>
